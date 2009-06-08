@@ -6,27 +6,27 @@ melody = \relative c' {
     \time 4/4
     \key c \minor
 
-    \partial 4*2 c4 ^"Latin" es
+    \partial 4*2 <aes c>4 ^"Latin" <ces es>
 % 1
-    g4. fis8 g2~
-    g\glissando bes2\glissando
-    g1~
-    g4 r c, es
+    <es g>4. <d fis>8 <es g>2~
+    <es g>\glissando <ges bes>2\glissando
+    <es g>1~
+    <es g>4 r <aes, c> <ces es>
 % 5
-    g4. fis8 g2~
-    g c4 bes
-    g1~
-    g2. r4
+    <es g>4. <d fis>8 <es g>2~
+    <es g> <aes c>4 <ges bes>
+    <es g>1~
+    <es g>2. r4
 % 9
-    r4 r8 c d4 es
-    d c bes c
-    bes4. aes8~ aes2~
-    aes4 r c, es
+    r4 r8 <aes c> d4 <ces es>
+    <bes d> <aes c> <ges bes> <aes c>
+    <ges bes>4. <fes aes>8~ <fes aes>2~
+    <fes aes>4 r <aes, c> <ces es>
 % 13
-    g4. fis8 g2~
-    g\glissando bes2\glissando
-    g1~
-    g2 r \bar "||"
+    <es g>4. <d fis>8 <es g>2~
+    <es g>\glissando <ges bes>2\glissando
+    <es g>1~
+    <es g>2 r \bar "||"
 % 17
     f4 ^"Swing" g8 aes g f r e~
     e4 f8 g f e r es~
@@ -34,11 +34,11 @@ melody = \relative c' {
     d4 es8 f es d r f~
 % 21
     f4 g8 aes g f r g~
-    g4 f8 g f4 bes,8 d~
+    g4 f8 g f4 <ges, bes>8 <bes d>~
     d1
     r1
 % 25 \partial
-    r2 c4 es
+    r2 <aes c>4 <ces es>
 }  % notes
 
 harmony = \chords {
