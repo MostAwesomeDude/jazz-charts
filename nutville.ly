@@ -6,7 +6,7 @@ melody = \relative c' {
     \time 4/4
     \key c \minor
 
-    \partial 4*2 <aes c>4 ^"Latin" <ces es>
+    \partial 4*2 <aes c>4 ^"Latin" <ces es> \bar "|:"
 % 1
     <es g>4. <d fis>8 <es g>2~
     <es g>\glissando <ges bes>2\glissando
@@ -38,7 +38,7 @@ melody = \relative c' {
     d1
     r1
 % 25 \partial
-    r2 <aes c>4 <ces es>
+    r2 <aes c>4 <ces es> \bar ":|"
 }  % notes
 
 harmony = \chords {
