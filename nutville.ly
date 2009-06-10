@@ -51,25 +51,25 @@ harmony = \chords {
 
     \partial 2*4 r2
 % 1
-    c1:min7
-    c:min7
-    c:min7
-    c:min7
+    c1:m7
+    c:m7
+    c:m7
+    c:m7
 % 5
-    c:min7
-    c:min7
-    c:min7
+    c:m7
+    c:m7
+    c:m7
     g2:dim7 c:7
 % 9
-    f1:min7
-    f:min7
-    f:min7
+    f1:m7
+    f:m7
+    f:m7
     des:maj7
 % 13
-    c:min7
-    c:min7
-    c:min7
-    c:min7
+    c:m7
+    c:m7
+    c:m7
+    c:m7
 % 17
     aes:13
     g:13

@@ -51,8 +51,8 @@ cis:7
 c:aug7
 c:aug7
 % 9
-f:min7
-bes:min7
+f:m7
+bes:m7
 % 13
 % 17
 % 21

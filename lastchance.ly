@@ -89,44 +89,44 @@ harmony = \chords {
     r1
     r
 % 3
-    c2:min7 d:min7
-    c:min7 d:min7
-    c:min7 d:min7
-    c:min7 d:min7
+    c2:m7 d:m7
+    c:m7 d:m7
+    c:m7 d:m7
+    c:m7 d:m7
 % 7
-    c:min7 d:min7
-    c:min7 d:min7
-    c:min7 d:min7
-    c:min7 d:min7
+    c:m7 d:m7
+    c:m7 d:m7
+    c:m7 d:m7
+    c:m7 d:m7
 % 11
-    c:min7 d:min7
-    c:min7 d:min7
-    c:min7 d:min7
-    c:min7 d:min7
+    c:m7 d:m7
+    c:m7 d:m7
+    c:m7 d:m7
+    c:m7 d:m7
 % 15
-    c:min7 d:min7
-    c:min7 d:min7
-    c:min7 d:min7
-    c:min7 d:min7
+    c:m7 d:m7
+    c:m7 d:m7
+    c:m7 d:m7
+    c:m7 d:m7
 % 19
     g1:7.9-
     f:dim7
 % 21
-    c:min7
+    c:m7
     d:7.5-
     d:7.5-
     es:maj6
 % 25
     es:maj6
-    f:min7
+    f:m7
     g:maj
     g:maj
 % 29
-    f2:min7 g:min7
+    f2:m7 g:m7
 % 30
-    fis:min7 gis:min7
+    fis:m7 gis:m7
 % 31
-    g:min7 a:min7
+    g:m7 a:m7
 }
 
 \score {
