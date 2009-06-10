@@ -32,9 +32,20 @@ f b2 f4
 e1~
 e
 % 17
+es
+aes2. es4
+d d d d
+d g2 d4
 % 21
+c c c c
+c d8 es d4 c
+b1
 % 25
 % 29
+% 33
+% 37
+% 41
+% 45
 }
 
 harmony = \chords {
@@ -61,9 +72,22 @@ d:m7 g:7
 c:maj7 \parenthesize e:maj7
 \parenthesize aes:maj7 \parenthesize g:7
 % 17
+c:m7 \parenthesize fis:dim7
+f:m7 \parenthesize b:7
+bes:7 \parenthesize e:maj7
+es:maj7 \parenthesize a:maj7
+% 13
+aes:maj7 \parenthesize des:7
+a:m7.5- d:7.9-
+g1:maj7
+e:7.9-
 % 21
 % 25
 % 29
+% 33
+% 37
+% 41
+% 45
 }
 
 \score {
