@@ -46,14 +46,20 @@ cis:7
 c:aug7
 c:aug7
 % 5
-cis1:7
+cis:7
 cis:7
 c:aug7
 c:aug7
 % 9
-f:m7
-bes:m7
+f2:m7 \parenthesize b:dim7
+bes:m7 \parenthesize e:7
+es:7 \parenthesize a:maj7
+aes:maj7 \parenthesize d:maj7
 % 13
+des:maj7 \parenthesize ges:7
+d:m7 g:7
+c:maj7 \parenthesize e:maj7
+\parenthesize aes:maj7 \parenthesize g:7
 % 17
 % 21
 % 25
