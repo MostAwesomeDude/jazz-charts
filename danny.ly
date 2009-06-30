@@ -69,7 +69,7 @@ harmony = \chords {
 % 14 (second ending)
     b:maj7
     e:maj7
-    es:maj7.6.9
+    es:maj9
 } % chords
 
 \score {
