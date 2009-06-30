@@ -9,11 +9,11 @@ melody = \relative c' {
     \time 4/4
     \key es \major
 
-    \partial 4*2 r8 d es f \bar "|:"
+    \partial 4*2 r8 d es f \repeat volta 2 {
 % 1
     g4. f8 g c bes g
     f es c4~ c8 es g aes
-    b4. c8 bes g es g
+    bes4. c8 bes g es g
     f2~ f8 d es f
 % 5
     g4. f8 g c bes g
@@ -29,7 +29,17 @@ melody = \relative c' {
     g'4. f8 f es c es
     bes g es4~ es8 d es f
     g c bes g f es c d
-    es1
+    } % repeat
+    \alternative {
+        {
+        es2~ es8 d es f
+        }
+        {
+        es1
+        }
+    }
+    es
+    d \fermata
 } % notes
 
 harmony = \chords {
@@ -56,6 +66,10 @@ harmony = \chords {
     c:m7 fis:m7.5-
     f:m7 bes:7
     es1:6.9
+% 14 (second ending)
+    b:maj7
+    e:maj7
+    es:maj7.6.9
 } % chords
 
 \score {
