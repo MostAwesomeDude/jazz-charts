@@ -18,32 +18,38 @@ melody = \relative c' {
 % 5
     bes d bes g bes4. g8
     bes d bes g bes4. g8
-    f2. d4
-    c2 r4 d8 f 
+    } % repeat
+    \alternative {
+      {
+        f2. d4
+        c2 r4 d8 f 
+      }
 % 9
-    f2. d4
-    bes2 r4 bes8 bes' \break
+      {
+        f2. d4
+        bes2 r4 bes8 bes' \bar "||" \break
+      }
+    }
     g4 bes,8 bes' g4 bes,8 bes'
     g4 g2 bes,8 bes' 
 % 13
     g4 bes,8 bes' g4 bes,8 bes'
-    g2 r4 c,8 c' \break
+    g2 r4 c,8 c' \break 
     a4 c,8 c' a4 c,8 c'
     a4 a2 c,8 c'
 % 17
     a4 c,8 c' a4 c,8 c'
-    f,2 f4 d8 es \break
-    f8 a f d f a f d
+    f,2 f4 d8 es \break 
+    f8 a f d f a f d \bar "||" 
     f f f2 d8 es 
 % 21
     f8 a f d f a f d
-    f2. g8 a \break
-    bes d bes g bes4. g8
+    f2. g8 a \break 
+    bes d bes g bes4. g8 
     bes d bes g bes4. g8
 % 25
     f2. d4
-    bes1
-    } % repeat
+    bes1 \bar "|."
 } % notes
 
 harmony = \chords {
