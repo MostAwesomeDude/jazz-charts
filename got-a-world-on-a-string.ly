@@ -11,8 +11,8 @@ melody = \relative c' {
 
     \partial 8*3 c8 f a \repeat volta 2  {
       d8 c es d ~ d2
-      c8 bes f bes a g4.
-      g8 f c f e f4 e8 ~
+      c8 bes f' bes, a g4.
+      g8 f c' f, e f4 e8 ~
       e2 es2 \break
 % 4
       d4 d c d8 d ~
@@ -34,12 +34,12 @@ melody = \relative c' {
     r8 a8 a a a a b e \break
 % 12
     b1
-    r8 a8 a a a a a b ~
+    r8 g8 g g g g g a ~
     a1 ~
     a2 r8 c,8 f a \bar "||" \break
 % 16
     d c es d ~ d2
-    c8 b f b a g4.
+    c8 bes f' bes, a g4.
     g8 f e f a c4 e8 ~
     e2 es \break
 % 20
@@ -88,11 +88,11 @@ harmony = \chords {
 \score {
     <<
         \context ChordNames {
-          %%\transpose c d \harmony
+          %\transpose f d \harmony
           \harmony
         }
         \context Staff {
-          %\transpose c d \melody
+          %\transpose f d \melody
           \melody
         }
     >>
