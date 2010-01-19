@@ -72,13 +72,4 @@ harmony = \chords {
     es:maj9
 } % chords
 
-\score {
-    <<
-        \context ChordNames {
-          \transpose c d \harmony
-        }
-        \context Staff {
-          \transpose c d \melody
-        }
-    >>
-}
+\include "footer.ly"

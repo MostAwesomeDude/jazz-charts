@@ -129,9 +129,4 @@ harmony = \chords {
     g:m7 a:m7
 }
 
-\score {
-    <<
-        \context ChordNames \harmony
-        \context Staff \melody
-    >>
-}
+\include "footer.ly"

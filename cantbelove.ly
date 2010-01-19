@@ -96,9 +96,4 @@ f1:6.9
 f:6.9
 } % chords
 
-\score {
-    <<
-        \context ChordNames \harmony
-        \context Staff \melody
-    >>
-}
+\include "footer.ly"

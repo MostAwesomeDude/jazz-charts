@@ -115,9 +115,4 @@ d:m7 des:maj7
 c1:maj7
 } % chords
 
-\score {
-    <<
-        \context ChordNames \harmony
-        \context Staff \melody
-    >>
-}
+\include "footer.ly"

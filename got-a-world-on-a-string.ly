@@ -85,15 +85,4 @@ harmony = \chords {
     f:6.9
 } % chords
 
-\score {
-    <<
-        \context ChordNames {
-          %\transpose f d \harmony
-          \harmony
-        }
-        \context Staff {
-          %\transpose f d \melody
-          \melody
-        }
-    >>
-}
+\include "footer.ly"

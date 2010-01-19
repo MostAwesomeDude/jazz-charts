@@ -81,9 +81,4 @@ harmony = \chords {
 
 } % chords
 
-\score {
-    <<
-        \context ChordNames \harmony
-        \context Staff \melody
-    >>
-}
+\include "footer.ly"

@@ -149,9 +149,4 @@ c:aug7
 c:aug7
 }
 
-\score {
-    <<
-        \context ChordNames \harmony
-        \context Staff \melody
-    >>
-}
+\include "footer.ly"

@@ -85,9 +85,4 @@ f:min7 bes:7
 es:maj6
 }
 
-\score {
-    <<
-        \context ChordNames \harmony
-        \context Staff \melody
-    >>
-}
+\include "footer.ly"
