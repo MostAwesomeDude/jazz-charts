@@ -1,17 +1,6 @@
 \version "2.12.0"
 
-% Comping slashes
-comp = #(define-music-function (parser location count) ( integer?)
-    #{
-        \override Rest #'stencil = #ly:percent-repeat-item-interface::beat-slash
-        \override Rest #'thickness = #0.48
-        \override Rest #'slope = #1.7
-        \repeat unfold $count { r4 }
-        \revert Rest #'stencil
-        \revert Rest #'thickness
-        \revert Rest #'slope
-    #}
-)
+\include "header.ly"
 
 \header {
     title = "There Will Never Be Another You"
