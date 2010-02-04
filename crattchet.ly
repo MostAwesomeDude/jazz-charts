@@ -3,7 +3,7 @@
 \include "header.ly"
 
 \header {
-    title = "Dr. Cratchet's Ratchet"
+    title = "Dr. Crattchet's Ratchet"
     pagenumber = "no"
 }
 
@@ -28,23 +28,23 @@ melody = \relative c''' {
     r2 r8 g e g
     r2 r8 a c c
     d4 c gis8 a gis g
-    fis dis d e g4 a8 a \break
+    fis dis d e g4 a8 a
     r2 r8 g e g
     r2 r8 g a a~
     a4 g8 e dis e dis e
-    d c a a r c d e~ \bar "||" \break
+    d c a a r c d e~ \bar "||"
     e4 d8 c d4 c8 a
     c a g a r e' r e~
     e4 d8 c d4 c8 a
-    c a g a r g a4 \break % fall here
+    c a g a r g a4
     r1
     r1
     r1
-    r1 \break
+    r1
     e'4 d8 c d4 c8 a
     c a g a r e' r es~
     es4 d8 c d4 c8 a
-    c a g a r gis r a \break
+    c a g a r gis r a
     r1
     r
     r

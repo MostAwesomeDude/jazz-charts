@@ -8,25 +8,35 @@
 }
 
 melody = \relative c'' {
-  \override Staff.TimeSignature #'stencil = #(compound-time "6" "5" "4")
   \key g \major
-  \time 11/4
+  \time 6/4
 
-  \repeat volta 2 {
-    r1 r2
-    r1 r4
-    r1 r2
+  \repeat volta 4 {
+    \time 6/4
+    r1 r4 r
+    \time 5/4
     r1 r4
   }
   \break
   \repeat volta 2 {
-    b2 b8 b d2 cis4 b4. b8 b2 cis4 |
-    fis, fis4. e8 fis4. e8 a4 b4. a4 d cis4. |
-    a8 b4_. r8 g b4_. r8 d4 a d4. d8 d2 e4 |
-    d8 b cis fis2 b,8 b4 cis g4. g8 g2 cis4
+    \time 6/4
+    b2 b8 b d2 cis4
+    \time 5/4
+    b4. b8 b2 cis4
+    \time 6/4
+    fis, fis4. e8 fis4. e8 a4
+    \time 5/4
+    b4. a4 d cis4.
+    \time 6/4
+    a8 b4_. r8 g b4_. r8 d4 a
+    \time 5/4
+    d4. d8 d2 e4
+    \time 6/4
+    d8 b cis fis2 b,8 b4 cis
+    \time 5/4
+    g4. g8 g2 cis4
   }
 
-  \revert Staff.TimeSignature #'stencil
   \time 9/4
 
   g4. a8 b4. cis8 fis, g a b a cis e b' g gis | \bar "||"
@@ -49,14 +59,13 @@ melody = \relative c'' {
 
   a, cis e b' g gis
   a, cis e b' g gis
-  a, cis e b' g gis
   a g f dis cis b
 } % notes
 
 harmony = \chords {
   \set chordChanges = ##t
 
-  \repeat unfold 6 {
+  \repeat unfold 5 {
     g1:maj7~ g4:maj7 a4:maj9
     g1:maj7 e4:6
   }
