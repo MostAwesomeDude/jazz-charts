@@ -35,6 +35,10 @@ melody = \relative c' {
   a4 fis d2~ d a'
   a4 f d2~ d g
   c,1 cis \bar ":|"
+
+  \comp #64
+  \bar "||"
+  \comp #64
 } % notes
 
 harmony = \chords {
@@ -43,7 +47,7 @@ harmony = \chords {
   bes1:6 bes:6 f:m7 bes:7
   es:maj7 es:maj7 es:m7 es:m7
   g:m7 g:m7 c:7 c:7
-  c:m7 g:7 fis:7 f:7.5+
+  c:m7 g:7 f:7 f:7.5+
   c:m7 f:7.5+ bes:6 bes:6
 
   cis:m7 fis:7
@@ -54,6 +58,16 @@ harmony = \chords {
   g:maj7 g:maj7
   g:m7 c:7
   f:7 f:7.5+
+
+  bes1:6 bes:maj7 f:m7 bes:7
+  es:maj7 es:6 es:m7 d:7
+  g:m7 aes:7 d:7 des:7
+  c:m7 g:7 fis:7 f:7.5+
+
+  bes1:6 bes:maj7 f:m7 bes:7
+  es:maj7 es:6 es:m7 d:7
+  g:m7 aes:7 d:7 des:7
+  c:m7 f:7.5+ bes:6 b:maj7
 
 } % chords
 
