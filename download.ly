@@ -21,6 +21,7 @@ head = \relative c'' {
   g4-^ d8 fis16 g-. r8 r16 g, r4
   g'8. bes16~ bes d8 cis16~ cis a8 c16~ c bes a aes
   g4-^ d8 fis16 g-. r2
+  \bar "||" \break
 }
 
 verse = \relative c' {
@@ -105,11 +106,22 @@ melody = \relative c'' {
   \key g \minor
 
   \head
-  \bar "||" \break
   \verse
   \bar "||" \break
   \chorus
   \chorustag
+
+  \pageBreak
+
+  \head
+  \mark "Corbin's solo"
+  \bar "|:"
+  \comp #(* 16 4)
+  \bar ":|:" \break
+
+  \mark "Lance's solo"
+  \comp #(* 6 4)
+  \bar ":|"
 }
 
 harmony = \chordmode {
@@ -122,6 +134,21 @@ harmony = \chordmode {
   \versechords
   \choruschords
   \nc
+
+  \nc
+  \nc
+  \nc
+  \nc
+  % Corbin's solo
+  \versechords
+
+  % Lance's solo
+  g1:m7
+  g:m7
+  c:m7
+  g:m7
+  d:7
+  g:m7
 }
 
 \include "footer.ly"
