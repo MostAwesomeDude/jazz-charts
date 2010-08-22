@@ -7,6 +7,11 @@
     pagenumber = "no"
 }
 
+nc = \chordmode {
+  r1
+  r
+}
+
 head = \relative c'' {
   g8. bes16~ bes d8 cis16~ cis a8 c16~ c bes a aes
   g4-^ d8 fis16 g-. r8 r16 g, r4
@@ -37,6 +42,25 @@ verse = \relative c' {
   f4. g,8 a bes c d
 }
 
+versechords = \chordmode {
+  g1:m7
+  c:7
+  g:m7
+  aes:maj7
+  g:m7
+  c:7
+  g:m7
+  aes:maj7
+  f:m7
+  bes:7
+  f:m7
+  ges:maj7
+  g:m7
+  c:7
+  g:m7
+  g:m7
+}
+
 chorus = \relative c' {
   es2. d8 c
   fis2 bes
@@ -47,11 +71,28 @@ chorus = \relative c' {
   d2 \comp #2
   \comp #1 r8 g,, a bes c d
   es2. d8 c
-  f2 g4 es \trill
-  d2. es8 d
-  \comp #4
-  \comp #4
-  \bendAfter #-7 des1
+  f2 g
+  a4 \trill f2.
+  es4. bes8 c d es f
+  g1
+  ces1
+}
+
+choruschords = \chordmode {
+  c1:m7
+  d:7
+  g2:m7 ges4:m7 f:m7
+  e1:m7.5+
+  es:7
+  d:7
+  g:m7
+  g:m7
+  c:m7
+  f:7
+  bes:maj7
+  es:maj7
+  aes:maj7
+  des:7
 }
 
 chorustag = \relative c' {
@@ -71,51 +112,16 @@ melody = \relative c'' {
   \chorustag
 }
 
-harmony = \chords {
+harmony = \chordmode {
   \set chordChanges = ##t
 
-  r1
-  r
-  r
-  r
-  r
-  r
-  r
-  r
-
-  g:m7
-  c:7
-  g:m7
-  aes:maj7
-  g:m7
-  c:7
-  g:m7
-  aes:maj7
-  f:m7
-  bes:7
-  f:m7
-  ges:maj7
-  g:m7
-  c:7
-  g:m7
-  g:m7
-
-  c:m7
-  d:7
-  g2:m7 ges4:m7 f:m7
-  e1:m7.5+
-  es:7
-  d:7
-  g:m7
-  g:m7
-  c:m7
-  f:7
-  bes:maj7
-  es:maj7
-  aes:maj7
-  des:7
-  r1
-  r1
+  \nc
+  \nc
+  \nc
+  \nc
+  \versechords
+  \choruschords
+  \nc
 }
 
 \include "footer.ly"
