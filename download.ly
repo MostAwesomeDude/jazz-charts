@@ -79,13 +79,16 @@ chorus = \relative c' {
   ces1
 }
 
-choruschords = \chordmode {
+choruschordsone = \chordmode {
   c1:m7
   d:7
   g2:m7 ges4:m7 f:m7
   e1:m7.5+
   es:7
   d:7
+}
+
+choruschordstwo = \chordmode {
   g:m7
   g:m7
   c:m7
@@ -110,10 +113,12 @@ melody = \relative c'' {
   \bar "||" \break
   \chorus
   \chorustag
+  \bar "||" \break
+
+  \head
 
   \pageBreak
 
-  \head
   \mark "Corbin's solo"
   \bar "|:"
   \comp #(* 16 4)
@@ -121,7 +126,24 @@ melody = \relative c'' {
 
   \mark "Lance's solo"
   \comp #(* 6 4)
+  \bar ":|:" \break
+
+  \mark "Doug's solo"
+  \comp #(* (+ (* 4 4) 2) 4)
   \bar ":|"
+
+  \head
+
+  \bar "|:"
+  \mark "Walt's solo"
+  \comp #(* 8 4)
+  \bar ":|:"
+
+  \mark "Kevin's solo"
+  \comp #(* 4 4)
+  \bar ":|"
+
+  \head
 }
 
 harmony = \chordmode {
@@ -132,7 +154,8 @@ harmony = \chordmode {
   \nc
   \nc
   \versechords
-  \choruschords
+  \choruschordsone
+  \choruschordstwo
   \nc
 
   \nc
@@ -149,6 +172,39 @@ harmony = \chordmode {
   g:m7
   d:7
   g:m7
+
+  % Doug's solo
+  g:m7
+  g:m7
+  g:m7
+  g:m7
+  bes:m7
+  bes:m7
+  bes:m7
+  bes:m7
+  g:m7
+  g:m7
+  g:m7
+  g:m7
+  bes:m7
+  bes:m7
+  bes:m7
+  bes:m7
+  des4.:7 c:7 des:7
+  d:7 es:7 r8
+
+  \nc
+  \nc
+  \nc
+  \nc
+  % Walt's solo
+  \choruschordstwo
+
+  % Kevin's solo
+  d1:7
+  es:maj7
+  d:7
+  c:m7
 }
 
 \include "footer.ly"
