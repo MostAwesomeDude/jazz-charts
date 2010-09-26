@@ -27,7 +27,7 @@ head = \relative c'' {
 doughead = \relative c'' {
   g8. bes16~ bes d8 cis16~ cis a8 c16~ c bes a aes
   g4-^ d8 fis16 g-. r8 r16 g, r4
-  bes8. des16~ des f8 e16~ e c8 es16~ es des c b
+  bes'8. des16~ des f8 e16~ e c8 es16~ es des c b
   bes1-^
   \bar "||" \break
 }
@@ -127,33 +127,39 @@ melody = \relative c'' {
 
   \pageBreak
 
-  \mark "Corbin's solo"
   \bar "|:"
-  \comp #(* 16 4)
+  \comp #(* 1 4)
+  \mark "Corbin's solo"
+  \comp #(* 15 4)
   \bar ":|:" \break
 
-  \mark "Prepare for halftime..."
   \doughead
 
+  \comp #(* 1 4)
   \mark "Doug's solo! Gritty!"
-  \comp #(* (+ (* 4 4) 2) 4)
+  \comp #(* 17 4)
   \bar ":|"
 
   \head
 
+  \comp #(* 1 4)
   \mark "Lance's solo"
-  \comp #(* 6 4)
+  \comp #(* 5 4)
   \bar ":|:" \break
 
   \head
 
+  \pageBreak
+
   \bar "|:"
+  \comp #(* 1 4)
   \mark "Walt's solo; ssssh"
-  \comp #(* 8 4)
+  \comp #(* 7 4)
   \bar ":|:"
 
+  \comp #(* 1 4)
   \mark "Kevin's solo"
-  \comp #(* 4 4)
+  \comp #(* 3 4)
   \bar ":|"
 
   \head
@@ -183,7 +189,7 @@ harmony = \chordmode {
   \nc
 
   % Doug's solo
-  g:m7
+  g1:m7
   g:m7
   g:m7
   g:m7
