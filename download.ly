@@ -24,6 +24,14 @@ head = \relative c'' {
   \bar "||" \break
 }
 
+doughead = \relative c'' {
+  g8. bes16~ bes d8 cis16~ cis a8 c16~ c bes a aes
+  g4-^ d8 fis16 g-. r8 r16 g, r4
+  bes8. des16~ des f8 e16~ e c8 es16~ es des c b
+  bes1-^
+  \bar "||" \break
+}
+
 verse = \relative c' {
   f1~
   f2. e8 c
@@ -124,18 +132,23 @@ melody = \relative c'' {
   \comp #(* 16 4)
   \bar ":|:" \break
 
-  \mark "Lance's solo"
-  \comp #(* 6 4)
-  \bar ":|:" \break
+  \mark "Prepare for halftime..."
+  \doughead
 
-  \mark "Doug's solo"
+  \mark "Doug's solo! Gritty!"
   \comp #(* (+ (* 4 4) 2) 4)
   \bar ":|"
 
   \head
 
+  \mark "Lance's solo"
+  \comp #(* 6 4)
+  \bar ":|:" \break
+
+  \head
+
   \bar "|:"
-  \mark "Walt's solo"
+  \mark "Walt's solo; ssssh"
   \comp #(* 8 4)
   \bar ":|:"
 
@@ -165,13 +178,9 @@ harmony = \chordmode {
   % Corbin's solo
   \versechords
 
-  % Lance's solo
-  g1:m7
-  g:m7
-  c:m7
-  g:m7
-  d:7
-  g:m7
+  % Doug's head -- half size
+  \nc
+  \nc
 
   % Doug's solo
   g:m7
@@ -197,6 +206,20 @@ harmony = \chordmode {
   \nc
   \nc
   \nc
+
+  % Lance's solo
+  g1:m7
+  g:m7
+  c:m7
+  g:m7
+  d:7
+  g:m7
+
+  \nc
+  \nc
+  \nc
+  \nc
+
   % Walt's solo
   \choruschordstwo
 
