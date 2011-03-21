@@ -34,9 +34,9 @@ melody = \relative c''' {
     \comp #4
   }
 
-  eis,8. fis8. ais8. b8. eis,8. fis16~
-  fis8 ais8. b8.~ b2~
-  b1
+  f8. ges8. bes8. ces8. f,8. ges16~
+  ges8 bes8. ces8.~ ces2~
+  ces1
   c
   \bar ".|."
 }
@@ -59,9 +59,9 @@ harmony = \chords {
   ges:maj7.11+
   ges:maj7.11+
 
-  b:maj7
+  ces:maj7
   aes:min7
-  e:maj7
+  fes:maj7
   f:7
 }
 
