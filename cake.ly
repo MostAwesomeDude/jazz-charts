@@ -9,60 +9,60 @@
 
 melody = \relative c''' {
   \time 4/4
-  \key a \major
+  \key bes \major
 
   \repeat volta 2 {
-    \times 2/3 { gis16 a gis } e cis~ cis8 \times 2/3 { dis16 e dis }
-    cis a8. \times 2/3 { gis'16 a gis } e cis
-    dis b cis a b cis b a
-    e'4 dis16 cis b a
-    gis4~ gis16 gis8. fis2
-    e4~ e16 e8. d2
+    \times 2/3 { a16 bes a } f d~ d8 \times 2/3 { e16 f e }
+    d bes8. \times 2/3 { a'16 bes a } f d
+    e c d bes c d c bes
+    f'4 e16 d c bes
+    a4~ a16 a8. g2
+    f4~ f16 f8. es2
   }
 
-  fis8. g8. b8. c8. fis,8. g16~
-  g8 b8. c8.~ c4 b
-  c1
-  cis2 eis
+  g8. aes8. c8. des8. g,8. aes16~
+  aes8 c8. des8.~ des4 c
+  des1
+  d2 fis
 
   \repeat volta 2 {
-    \times 2/3 { gis16 a gis } e cis~ cis8 \times 2/3 { dis16 e dis }
-    cis a8. \times 2/3 { gis'16 a gis } e cis
-    dis b cis a b cis b a
-    e'4 dis16 cis b a
-    <g b>8. <f a>8. <a c>8~ <a c>2
+    \times 2/3 { a16 bes a } f d~ d8 \times 2/3 { e16 f e }
+    d bes8. \times 2/3 { a'16 bes a } f d
+    e c d bes c d c bes
+    f'4 e16 d c bes
+    <aes c>8. <ges bes>8. <bes des>8~ <bes des>2
     \comp #4
   }
 
-  e8. f8. a8. bes8. e,8. f16~
-  f8 a8. bes8.~ bes2~
-  bes1
-  b
+  eis,8. fis8. ais8. b8. eis,8. fis16~
+  fis8 ais8. b8.~ b2~
+  b1
+  c
   \bar ".|."
 }
 
 harmony = \chords {
   \set chordChanges = ##t
 
-  a1:maj7.11+
-  a:maj7.11+
-  d:maj7.11+
-  d:maj7.11+
+  bes1:maj7.11+
+  bes:maj7.11+
+  es:maj7.11+
+  es:maj7.11+
 
-  c:maj7
-  a:min7
-  b:7
-  cis:7
+  des:maj7
+  bes:min7
+  c:7
+  d:7
 
-  fis:min7
-  fis:min7
-  f:maj7.11+
-  f:maj7.11+
-
-  bes:maj7
   g:min7
-  es:maj7
-  e:7
+  g:min7
+  ges:maj7.11+
+  ges:maj7.11+
+
+  b:maj7
+  aes:min7
+  e:maj7
+  f:7
 }
 
 \include "footer.ly"
