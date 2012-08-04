@@ -34,10 +34,24 @@ melody = \relative d' {
 
   \break
 
+  g''2.. | g |
+  f4 e8 d4 d | d2.. |
+  g8 f e d f e d | c e d c b bes b |
+  c cis d f, g a b |
+  a g f \times 2/3 { f g a b c d } |
+
+  \break
+
+  \repeat volta 8 {
+    \compeight #(* 7 8)
+  }
+
+  \break
+
   \repeat volta 2 {
     <<
       \repeat unfold 8 {
-        g''8 f a f g f e
+        g8 f a f g f e
       }
       \\
       {
@@ -98,6 +112,22 @@ harmony = \chords {
   bes:maj
   bes:maj
   bes:maj
+  g:7
+  g:7
+  g:7
+  g:7
+  g:7
+  g:7
+  g:7
+  g:7
+  a:7
+  a:7
+  a:7
+  a:7
+  es:7
+  es:7
+  es:7
+  es:7
   d:m
   d:m
   d:m/c
