@@ -11,7 +11,7 @@ melody = \relative c' {
   \key es \minor
 
   \repeat volta 2 {
-    r4 bes16 es f bes g4. bes,8 |
+    r4 bes16 es f bes ges4. bes,8 |
     es4. d16 es bes'8 aes r4 |
     r4 es16 ges bes des c4. es,8 |
     a8 fis16 d gis4 aes8 f16 des g4 |
@@ -20,7 +20,7 @@ melody = \relative c' {
   }
   \alternative {
     {
-      \times 2/3 { g8 g g g g g } f4. des8 |
+      \times 2/3 { ges8 ges ges ges ges ges } f4. des8 |
       d bes r4 r2 |
     }
     {
@@ -38,7 +38,7 @@ melody = \relative c' {
   es8 es es4 des8 des des4 |
   ces4 es,8 d bes' aes e d |
 
-  r4 bes16 es f bes g4. bes,8 |
+  r4 bes16 es f bes ges4. bes,8 |
   es4. d16 es bes'8 aes r4 |
   r4 es16 ges bes des c4. es,8 |
   a8 fis16 d gis4 aes8 f16 des g4 |
