@@ -28,3 +28,6 @@ compeight = #(define-music-function (parser location count) ( integer?)
    (markup #:override '(baseline-skip . 0) #:number
     (#:line
      ((#:column (first base)) #:vcenter "+" (#:column (second base)))))))
+
+% Make everything slightly larger (and thus more readable)
+#(set-global-staff-size 23)
